@@ -19,7 +19,6 @@ data.forEach(i => {
     trow.append('td').text(i.comments)
 })
 
-// Create the function to run for both events
 function runEnter() {
     d3.event.preventDefault();
     tbody.text('')
